@@ -1,0 +1,45 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+    Layout = null;
+}
+
+<ul>
+    <li>
+        first item
+    </li>
+    <li>
+        second item
+    </li>
+    <li>
+        third item
+    </li>
+</ul>
+<ol>
+    @for (int i = 1; i <= 3; i++)
+    {
+
+        <li>WIN @i</li>
+    }
+</ol>
+
+
+<dl>
+    <dt>WIN1</dt>
+    <dd>WIN1-1</dd>
+    <dt>WIN2</dt>
+    <dt>WIN3</dt>
+    <dd>WIN3-1</dd>
+
+</dl>
+
+<ol>
+    <li>WIN item 1</li>
+    <li>WIN item 2
+        <ul>
+
+            <li>WIN item 2-1</li>
+            <li>WIN item 2-2</li>
+        </ul>
+    </li>
+    <li>WIN item 3</li>
+</ol>
