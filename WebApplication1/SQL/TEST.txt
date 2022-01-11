@@ -1,0 +1,4 @@
+1.
+select  p.first name, p.last name, a.city,a.state 
+from Person p
+inner join Address a on p.personId = a.personId
